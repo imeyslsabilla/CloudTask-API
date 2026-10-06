@@ -212,20 +212,20 @@ Pengujian endpoint `POST /api/tasks` untuk menambahkan tugas baru. API mengembal
 
 ![Menambahkan Tugas](Screenshots/create-task.png)
 
-### 2. Menampilkan Daftar Tugas
+### 2. Memperbarui Status Tugas
+
+Pengujian fitur untuk mengubah status tugas menjadi selesai menggunakan endpoint `PATCH /api/tasks/{id}/complete`.
+
+![Memperbarui Status Tugas](Screenshots/task-status-update.png)
+
+### 3. Menampilkan Daftar Tugas
 
 Pengujian endpoint `GET /api/tasks` untuk mengambil dan menampilkan seluruh tugas yang tersimpan dalam database.
 
 ![Daftar Tugas](Screenshots/task-list-browser.png)
 
-### 3. Menjalankan Docker Container
+### 4. Menjalankan Docker Container
 
 Dokumentasi pemeriksaan container Docker yang menjalankan aplikasi CloudTask API dan database PostgreSQL.
 
 ![Docker Containers](Screenshots/docker-containers.png)
-
-### 4. Memperbarui Status Tugas
-
-Pengujian fitur untuk mengubah status tugas menjadi selesai menggunakan endpoint `PATCH /api/tasks/{id}/complete`.
-
-![Memperbarui Status Tugas](Screenshots/task-status-update.png)
