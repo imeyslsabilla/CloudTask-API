@@ -201,3 +201,31 @@ Hasil pengujian menunjukkan bahwa fitur utama API dapat digunakan, validasi inpu
 Melalui project ini, saya mempelajari dasar pengembangan REST API menggunakan Java dan Spring Boot, cara menghubungkan aplikasi dengan PostgreSQL menggunakan Spring Data JPA, serta cara menjalankan beberapa layanan menggunakan Docker Compose.
 
 Saya juga mempelajari cara menguji endpoint API, membaca log aplikasi, menangani input yang tidak valid, dan memahami persistensi data pada database.
+
+## Dokumentasi Pengujian
+
+Bagian ini berisi dokumentasi implementasi dan pengujian CloudTask API menggunakan Java, Spring Boot, PostgreSQL, dan Docker.
+
+### 1. Menambahkan Tugas
+
+Pengujian endpoint `POST /api/tasks` untuk menambahkan tugas baru. API mengembalikan respons `201 Created` ketika tugas berhasil dibuat.
+
+![Menambahkan Tugas](Screenshots/create-task.png)
+
+### 2. Menampilkan Daftar Tugas
+
+Pengujian endpoint `GET /api/tasks` untuk mengambil dan menampilkan seluruh tugas yang tersimpan dalam database.
+
+![Daftar Tugas](Screenshots/task-list-browser.png)
+
+### 3. Menjalankan Docker Container
+
+Dokumentasi pemeriksaan container Docker yang menjalankan aplikasi CloudTask API dan database PostgreSQL.
+
+![Docker Containers](Screenshots/docker-containers.png)
+
+### 4. Memperbarui Status Tugas
+
+Pengujian fitur untuk mengubah status tugas menjadi selesai menggunakan endpoint `PATCH /api/tasks/{id}/complete`.
+
+![Memperbarui Status Tugas](Screenshots/task-status-update.png)
