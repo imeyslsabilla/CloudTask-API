@@ -1,0 +1,13 @@
+
+# Konfigurasi rahasia lokal
+.env
+
+# Hasil build Maven
+target/
+
+# File khusus sistem operasi
+.DS_Store
+Thumbs.db
+
+# File sementara editor
+*.log
